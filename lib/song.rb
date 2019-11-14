@@ -6,9 +6,6 @@ class Song
     song = Song.create
     @@all << song
   end
-    
-    
-  end
   
   def self.all
     @@all
