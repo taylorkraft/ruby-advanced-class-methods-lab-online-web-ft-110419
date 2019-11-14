@@ -18,6 +18,7 @@ class Song
     song = self.name
     song.name = name
     @@all << song
+    song
   end
   
   def self.all
